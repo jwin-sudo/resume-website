@@ -1,0 +1,80 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.header {
+  text-align: center;
+  background: #007acc;
+  color: white;
+  padding: 20px 0;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  margin: 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  border-bottom: 2px solid #007acc;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style: square;
+  padding-left: 20px;
+}
+.social-media-links {
+  position: absolute; /* Position the links relative to the parent container */
+  top: 20px; /* Distance from the top of the page */
+  right: 20px; /* Distance from the right of the page */
+}
+
+.social-media-links ul {
+  display: flex; /* Arrange the links horizontally */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-media-links li {
+  margin-left: 15px; /* Add space between icons */
+}
+
+.social-media-links img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+.social-media-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+.social-media-links a:hover {
+  color: #0073b1; /* LinkedIn blue or general hover effect */
+}
+
+@media (max-width: 768px) {
+  .social-media-links {
+    top: 10px;
+    right: 10px;
+  }
+
+  .social-media-links img {
+    width: 20px;
+    height: 20px;
+  }
+}
