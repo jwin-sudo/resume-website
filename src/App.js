@@ -6,7 +6,7 @@ import Skills from './components/Skills'
 import Interests from './components/Interests'
 import SocialMediaLinks from './components/SocialMediaLinks'
 import Eligibility from './components/Eligibility'
-import './styles/App.css'
+import './styles/App.css' 
 
 const App = () => (
   <div className='app'>
